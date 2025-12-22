@@ -1,1 +1,317 @@
+GENAI ENGINEER — 7 DAY COMPLETE LEARNING PLAN
+DAY 1 — FOUNDATIONS & HOW LLMS REALLY WORK
+Objective
 
+Build a strong mental model of how Large Language Models work and remove the “black-box” mindset.
+
+Topics Covered
+
+Software & Python Foundations
+
+Python essentials (functions, OOP, typing, async basics)
+
+Virtual environments and dependency management
+
+Git and repository structure
+
+Logging, error handling, retries
+
+Environment variables and configuration patterns
+
+LLM Core Concepts
+
+What a Language Model is
+
+Tokens vs words
+
+Context window and truncation
+
+Training vs inference
+
+Why hallucinations occur
+
+Transformer architecture (attention, embeddings, positional encoding)
+
+Decoding & Sampling
+
+Temperature, top-p, top-k
+
+Why randomness happens
+
+Why repetition happens
+
+Outcome
+
+Able to explain transformers and hallucinations in simple terms
+
+Interview-ready understanding of LLM behavior
+
+DAY 2 — TOKENIZATION, EMBEDDINGS & SIMILARITY SEARCH
+Objective
+
+Understand how raw text becomes vectors and how semantic search works.
+
+Topics Covered
+
+Tokenization
+
+BPE, WordPiece, SentencePiece
+
+Token IDs and vocabulary
+
+Token cost estimation
+
+Prompt compression awareness
+
+Embeddings
+
+What embeddings represent
+
+Cosine similarity vs dot product
+
+Embedding dimensionality tradeoffs
+
+Chunking fundamentals
+
+Duplicate and noisy chunk issues
+
+Outcome
+
+Clear understanding of why chunking exists
+
+Ability to explain why bad chunking breaks RAG systems
+
+DAY 3 — PROMPT ENGINEERING (PRODUCTION LEVEL)
+Objective
+
+Control LLM outputs reliably and safely.
+
+Topics Covered
+
+Prompting Fundamentals
+
+System vs user roles
+
+Zero-shot vs few-shot prompting
+
+Structured outputs (JSON, schemas)
+
+Prompt templates and versioning
+
+Advanced Prompting
+
+Prompt debugging techniques
+
+Hallucination control
+
+Extraction vs reasoning prompts
+
+Prompt injection awareness
+
+Knowing when prompting is insufficient
+
+Outcome
+
+Ability to debug broken prompts
+
+Confidence in designing production prompts
+
+DAY 4 — LLM APIS, PROVIDERS & BACKEND ENGINEERING
+Objective
+
+Think like a backend GenAI engineer.
+
+Topics Covered
+
+LLM Providers
+
+OpenAI, Azure OpenAI, Anthropic, Gemini
+
+Model selection tradeoffs
+
+Streaming vs non-streaming responses
+
+Rate limits, retries, backoff strategies
+
+Token usage tracking and cost control
+
+Backend Engineering
+
+FastAPI fundamentals
+
+Async endpoints
+
+Caching concepts
+
+Secrets and authentication
+
+Error handling patterns
+
+Outcome
+
+Ability to explain latency vs cost vs quality tradeoffs
+
+Ready to build GenAI APIs
+
+DAY 5 — RETRIEVAL AUGMENTED GENERATION (RAG)
+Objective
+
+Build real-world, grounded GenAI systems.
+
+Topics Covered
+
+RAG Fundamentals
+
+Why RAG exists
+
+RAG vs fine-tuning vs long-context models
+
+Why fine-tuning does not add knowledge
+
+Knowledge freshness and grounding
+
+RAG Pipeline
+
+Document ingestion (PDF, DOC, HTML)
+
+Cleaning and normalization
+
+Chunking strategies
+
+Metadata design
+
+Vector databases (FAISS, Pinecone, Chroma, etc.)
+
+Retrieval strategies (top-k, MMR)
+
+Reranking
+
+Faithful answering with citations
+
+Evaluation
+
+Recall@k
+
+Faithfulness vs relevance
+
+Common failure modes
+
+Outcome
+
+Ability to design and defend a RAG architecture
+
+Strong interview-level understanding of RAG systems
+
+DAY 6 — AGENTS, LANGGRAPH & DOCUMENT AI
+Objective
+
+Move from chatbots to decision-making systems.
+
+Topics Covered
+
+AI Agents
+
+What an AI agent is
+
+Planning vs execution
+
+Tool calling
+
+Memory types
+
+Failure recovery and fallbacks
+
+Frameworks
+
+LangChain fundamentals
+
+LangGraph state machines
+
+When not to use frameworks
+
+Document AI (Invoice-Focused)
+
+OCR and layout parsing
+
+Table and key-value extraction
+
+Rule-based + LLM hybrid validation
+
+Confidence scoring
+
+Human-in-the-loop workflows
+
+Outcome
+
+Clear understanding of agentic AI
+
+Ability to explain responsible automation design
+
+DAY 7 — PRODUCTION, SAFETY, MLOPS & INTERVIEW READINESS
+Objective
+
+Think like someone who ships GenAI systems.
+
+Topics Covered
+
+Safety & Governance
+
+PII handling and redaction
+
+Prompt injection defenses
+
+Output filtering
+
+Audit logs
+
+Access control and data isolation
+
+Enterprise compliance awareness (SOC2, GDPR)
+
+Evaluation & Monitoring
+
+Prompt regression testing
+
+RAG quality evaluation
+
+Latency and cost monitoring
+
+Drift and failure alerts
+
+Deployment & MLOps
+
+Docker fundamentals
+
+CI/CD awareness
+
+Dev vs staging vs production environments
+
+Self-hosted inference awareness (vLLM, Ollama)
+
+System Design & Interviews
+
+End-to-end GenAI architecture
+
+Scaling strategies
+
+Cost optimization
+
+Human-in-the-loop placement
+
+Outcome
+
+Confident GenAI system design explanations
+
+Strong readiness for GenAI Engineer interviews
+
+FINAL RESULT
+
+After completing this 7-day plan:
+
+Full coverage of GenAI Engineer responsibilities
+
+Production-ready mindset
+
+Interview-ready explanations
+
+Clear direction for building a flagship GenAI project
